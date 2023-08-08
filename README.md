@@ -1,1 +1,2 @@
 # Toxic-Comment-Classification
+Classify whether a given input comment is toxic/severely toxic/obscene/a threat/an insult/or if it is hateful. Bidirectional GRU used to train on input word sequences. The comment is vectorized,converted into embeddings, passed into the Bidirectional GRU model. It is then categorized into it's appropriate labels. We then use Gradio which makes it simple to develop web-based user interfaces for machine learning models, for testing purposes
